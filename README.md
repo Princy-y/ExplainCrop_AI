@@ -45,11 +45,12 @@ This project leverages deep learning with transfer learning (MobileNetV2) to cla
 *  Risk level (Low / High)
 *  Action recommendation
 *  Visual explanation (heatmap)
-*  Sample Input
-   ![Input](results/input_img.jpeg)
-   
-   Prediction Output
-   ![Prediction](results/prediction.png)
+  
+<div align="center">
+  <img src="results/input_img.jpeg" width="250" style="margin:10px">
+  <img src="results/prediction.png" width="250" style="margin:10px">
+  <img src="results/gradcam.jpeg" width="250" style="margin:10px">
+</div>
 
 ---
 ## Model Performance
