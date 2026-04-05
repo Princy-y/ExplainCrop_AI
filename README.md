@@ -46,11 +46,14 @@ This project leverages deep learning with transfer learning (MobileNetV2) to cla
 *  Action recommendation
 *  Visual explanation (heatmap)
   
-<div align="center">
-  <img src="results/input_img.jpeg" width="250" style="margin:10px">
-  <img src="results/prediction.png" width="250" style="margin:10px">
-  <img src="results/gradcam.jpeg" width="250" style="margin:10px">
-</div>
+<h3> Sample Input</h3>
+<img src="results/input_img.jpeg" width="400">
+
+<h3> Prediction Output</h3>
+<img src="results/prediction.png" width="400">
+
+<h3> Grad-CAM Explanation</h3>
+<img src="results/gradcam.png" width="400">
 
 ---
 ## Model Performance
