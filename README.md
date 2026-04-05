@@ -45,8 +45,15 @@ This project leverages deep learning with transfer learning (MobileNetV2) to cla
 *  Risk level (Low / High)
 *  Action recommendation
 *  Visual explanation (heatmap)
+*  Sample Input
+   ![Input](results/input_img.jpeg)
+   
+   Prediction Output
+   ![Prediction](results/prediction.png)
 
 ---
+## Model Performance
+Achieved over 95% accuracy on validation dataset with strong classification performance.
 
 ## Objective
 
@@ -60,6 +67,10 @@ To assist users and farmers in identifying harmful weeds and making informed dec
 * Some upload-related code (e.g., `files.upload()`) works only in Colab environment
 
 ---
+## How to Run
+1. Open the notebook in Google Colab  
+2. Upload the dataset zip file  
+3. Run all cells step by step  
 
 ## Future Improvements
 
