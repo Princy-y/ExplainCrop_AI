@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
+![Intel oneAPI](https://img.shields.io/badge/Intel-oneAPI-blue)
+
 # ExplainCrop AI
 
 ExplainCrop AI is an intelligent computer vision system designed to identify plants and weeds from images and provide actionable agricultural insights.
@@ -36,9 +40,15 @@ This project leverages deep learning with transfer learning (MobileNetV2) to cla
 * OpenCV
 * NumPy
 * Matplotlib
+* Intel oneAPI (oneDNN, oneDAL via sklearnex)
 
 ---
+## Intel oneAPI Optimization
+This project leverages Intel oneAPI optimizations for improved performance:
 
+- TensorFlow uses Intel oneDNN for accelerated deep learning operations
+- Scikit-learn is optimized using Intel oneDAL via sklearnex
+---
 ## Sample Output
 
 *  Prediction with confidence score
@@ -70,10 +80,18 @@ To assist users and farmers in identifying harmful weeds and making informed dec
 * Some upload-related code (e.g., `files.upload()`) works only in Colab environment
 
 ---
+
+## Installation
+
+```bash
+pip install tensorflow opencv-python numpy matplotlib scikit-learn-intelex
+```
 ## How to Run
 1. Open the notebook in Google Colab  
-2. Upload the dataset zip file  
-3. Run all cells step by step  
+2. Install dependencies   
+3. Upload the dataset zip file  
+4. Provide a test image path (e.g., `/content/test.jpg`)  
+5. Run all cells sequentially 
 
 ## Future Improvements
 
@@ -87,10 +105,9 @@ To assist users and farmers in identifying harmful weeds and making informed dec
 
 This project goes beyond basic classification by combining:
 
-* Deep Learning
-* Explainable AI (XAI)
-* Decision Support System
-
+- Deep Learning + Explainable AI (Grad-CAM)
+- Provides actionable agricultural insights
+- Uses Intel oneAPI optimizations for high performance
 ---
 
-✨ *ExplainCrop AI demonstrates how AI can move from prediction to meaningful real-world impact.*
+ *ExplainCrop AI demonstrates how AI can move from prediction to meaningful real-world impact.*
